@@ -1,4 +1,4 @@
-vowels = 'aeiou'
+vowel = 'aeiou'
 
 ip_str = 'Hello, have you tried our tutorial section yet?'
 
@@ -9,7 +9,7 @@ vowel_count = 0
 consonant_count = 0
 
 for char in ip_str:
-   	if char in vowels:
+   	if char in vowel:
    		vowel_count += 1
    	else:
    		consonant_count +=1     	
